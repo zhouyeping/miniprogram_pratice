@@ -1,0 +1,25 @@
+<template name="cart-goods-item">
+  <view class="goods-item--container">
+    <view class="goods-item__opr-btn--left">
+      
+    </view>
+    <view class="goods-item-img--container">
+      <image class="goods-item-contaner__img" src="{{img_url}}">
+        
+      </image>
+    </view>
+    <view class="goods-item__desc--container">
+      <view class="goods-item-desc__title--container">
+        <text class="goods-item-desc__title">{{product_name}}</text> 
+      </view>
+      <view class="goods-item-desc__opr--container">
+        
+      </view>
+      <view class="goods-item-desc__price--container">
+        <text class="goods-item-desc__price">{{price}}</text> 
+      </view>
+    </view>
+  </view>
+</template>
+
+

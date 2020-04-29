@@ -1,0 +1,37 @@
+.goods-item--container{
+	display: flex;
+}
+
+.goods-item-img--container{
+	padding: 10rpx
+}
+
+.goods-item-contaner__img{
+	height: 200rpx;
+	width: 200rpx;
+}
+
+
+.goods-item__desc--container{
+	padding: 5rpx;
+}
+
+
+.goods-item-desc__title--container{
+}
+
+.goods-item-desc__title{
+}
+
+
+.goods-item-desc__opr--container{
+}
+
+
+.goods-item-desc__price--container{
+}
+
+.goods-item-desc__price{
+}
+
+

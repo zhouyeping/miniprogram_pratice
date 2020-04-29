@@ -1,0 +1,12 @@
+<import src="../../template/cart/goods-item.wxml"></import>
+
+<view>
+  <view class="header--div">
+    <text class="header__title">购物车</text>
+  </view>
+   
+  <view class="goods-list--container">
+    <template is="cart-goods-item" data="{{...product_info}}"></template>
+  </view>
+
+</view>
